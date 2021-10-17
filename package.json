@@ -9,6 +9,7 @@
   "repository": "git@github.com:AyamotoKohei/secret-board.git",
   "license": "MIT",
   "dependencies": {
+    "http-auth": "4.1.9",
     "pug": "2.0.4"
   }
 }
