@@ -14,10 +14,11 @@ html(lang="ja")
       h1 秘密の匿名掲示板
     h2 新規投稿
     form(method="post" action="/posts")
-      div
-        textarea(name="content" cols=40 rows=4)
-      div
-        button(type="submit") 投稿
+      div.form-group
+        textarea(name="content" rows="4").form-control
+      div.form-group
+        button(type="submit").btn.btn-primary 投稿
+
     h2 投稿一覧
     each post in posts
       - let isPostedByAdmin = (post.postedBy === 'admin')
