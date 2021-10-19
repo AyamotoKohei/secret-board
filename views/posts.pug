@@ -9,8 +9,9 @@ html(lang="ja")
 
     title 秘密の匿名掲示板
   body.container
-    h1 秘密の匿名掲示板
-    a(href="/logout") ログアウト
+    div.my-3
+      a(href="/logout").btn.btn-info.float-right ログアウト
+      h1 秘密の匿名掲示板
     h2 新規投稿
     form(method="post" action="/posts")
       div
