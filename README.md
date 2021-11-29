@@ -32,9 +32,9 @@ $ yarn -v
 + 実行
 ```
 $ pwd
-/Users/AyamotoKohei/schedule-arranger
+/Users/AyamotoKohei/secret-board
 
-$ mkdir ../schedule-arranger-data
+$ mkdir ../secret-board-db
 
 $ docker-compose up -d
 
